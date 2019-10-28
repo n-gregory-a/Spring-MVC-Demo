@@ -30,7 +30,14 @@
 
         Favorite Programming Language:
         
-        Java <form:radiobuttons path="favoriteLanguage" items="${student.favoriteLanguageOptions}"/>
+        <form:radiobuttons path="favoriteLanguage" items="${student.favoriteLanguageOptions}"/>
+
+        <br><br>
+
+        Operating Systems:
+        Linux <form:checkbox path="operationSystem" value="Linux" />
+        Mac OS <form:checkbox path="operationSystem" value="Mac OS" />
+        MS Windows <form:checkbox path="operationSystem" value="MS Windows" />
 
         <br><br>
 
